@@ -1,0 +1,22 @@
+ROOT astartup.o, prism.o, menu.o, chproc.o, curbrush.o*
+paintw.o, modes.o, geom.o, conic.o*
+psym.o, lfmult.o, pane.o* 
+mainmag.o, magops.o, magwin.o, magbits.o*
+pgraph.o, bitmaps.o, bmob.o* 
+blitops.o, maskblit.o, dalloc.o, box.o*
+dispnum.o,keyjunk.o, distance.o, mousebut.o, ctrpan.o* 
+penmenu.o, actbms.o, cursor.o, cursbms.o, dotbms.o*
+message.o, ccycle.o, reqcom.o, timer.o, brxform.o
+OVERLAY
+initovs.o, dpinit.o, dpinit2.o, fontinit.o, bootit.o, hook.o,
+fill.o, airbrush.o, random.o, polyh.o, blend.o, shade.o, polyf.o, clip.o, text.o
+rot90.o, stretch.o, rotate.o, shear.o, remap.o, bend.o, print.o, spare.o
+dopalett.o, palette.o, palbms.o hsv.o
+dosymreq.o,symreq.o
+dpio.o, fnreq.o, fnbms.o, dpiff.o 
+*initread.o, ilbmr.o, unpacker.o,iffr.o
+*initwrite.o, ilbmw.o, packerf.o, copymem.o, iffw.o, makeicon.o
+#
+LIBRARY amiga.lib, lc.lib, debug.lib 
+TO prism
+
